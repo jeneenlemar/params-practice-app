@@ -7,7 +7,5 @@ Rails.application.routes.draw do
     get "/phrase_url" => "paramspractices#phrase_method"
     get "/:phrase" => "paramspractices#phrase_method"
     post "/phrase_post_url" => "paramspractices#phrase_method"
-
-
   end
 end
